@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: none;
+}
+@media (min-width: 992px) {
+  .nav-item {
+    margin-left: 40px;
+  }
+}
+.nav-item {
+  font-weight: 400;
+}
+.hero {
+  margin-top: 100px;
+}
+@media (max-width: 11200px) {
+  .big-text {
+    font-size: 200px;
+  }
+}
+.about {
+  margin-top: 160px;
+  background-color: black;
+  color: white;
+}
+.icon {
+  font-size: 40px;
+  margin-right: 20px;
+}
+.featured-services {
+  margin: 100px 0px;
+}
+footer {
+  color: white;
+  background-color: black;
+  padding: 100px 0px;
+}
+.ghost-button {
+  color: white;
+  background: black;
+  border: 1px solid white;
+  font-size: 17px;
+  padding: 15px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 140px;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  transition: 0.4s;
+  color: black;
+  background: white;
+}
+.contact {
+}
+.form-layout {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.contact-form {
+  background-color: white;
+  padding: 50px;
+  border-radius: 2%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 100px;
+}
+.typebox {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.typearea {
+  width: 450px;
+  resize: none;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.typebox {
+}
+.submit-button {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  font-size: 17px;
+  padding: 15px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 140px;
+}
+.submit-button:hover,
+.submit-button:active {
+  transition: 0.4s;
+  color: white;
+  background: black;
+}
